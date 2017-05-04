@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.bupa.baiduditu.MainActivity">
+    <item
+        android:id="@+id/action_normal"
+        android:title="普通地图"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sellate"
+        android:title="卫星图"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_traffic"
+        android:title="交通流量图"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_zoomIn"
+        android:title="放大"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_zoomOut"
+        android:title="缩小"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rotate"
+        android:title="旋转"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_translate"
+        android:title="移动"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_mantle"
+        android:title="显示覆盖物"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_circle"
+        android:title="显示范围覆盖物"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_nearbysearch"
+        android:title="搜索附近的超市"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_drivingrouteplane"
+        android:title="驾车导航"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_transitrouteplane"
+        android:title="路线规划"
+        app:showAsAction="never" />
+</menu>
